@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+		<PackageReference Include="Grpc.Core" Version="2.44.0" />
+		<PackageReference Include="protobuf-net.Grpc.AspNetCore" Version="1.0.152" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Ebish.GrpcConsole.Endpoint\Ebish.GrpcConsole.Endpoint.csproj" />
+	</ItemGroup>
+
+</Project>
